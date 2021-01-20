@@ -1,0 +1,32 @@
+body {
+    margin:0;
+    padding:0;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+#application {
+    display: flex;
+}
+#score_panel {
+    display: flex;
+    flex-direction: column;
+}
+.score {
+    color: #5c5b5b;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin: 10px 0 0 30px;
+}
+.value_score {
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin: 10px 0 0 10px;
+    color: #FF0064;
+}
